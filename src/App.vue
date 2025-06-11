@@ -10,9 +10,11 @@ import Tetris from './components/Tetris.vue'
 </script>
 
 <style>
+
 .app {
   text-align: center;
-  font-family: Arial, sans-serif;
+  font-family: 'Press Start 2P', Arial, sans-serif;
+  padding: 20px;
 }
 
 h1 {
