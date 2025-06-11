@@ -274,11 +274,16 @@ onUnmounted(() => {
   justify-content: center;
   gap: 20px;
   padding: 20px;
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
 .game-board {
   border: 2px solid #333;
-  background: #f0f0f0;
+  background: #1e1e1e;
+  border-radius: 4px;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .row {
@@ -288,15 +293,19 @@ onUnmounted(() => {
 .cell {
   width: 30px;
   height: 30px;
-  border: 1px solid #ccc;
+  border: 1px solid #444;
+  background: #2c3e50;
+  border-radius: 4px;
 }
 
 .cell.filled {
   background: #42b883;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .cell.current {
   background: #3498db;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 .game-info {

@@ -1,5 +1,10 @@
 @import './base.css';
 
+body {
+  background: linear-gradient(135deg, #282c34, #4b79a1);
+  min-height: 100vh;
+}
+
 #app {
   max-width: 1280px;
   margin: 0 auto;
